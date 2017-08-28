@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     public void TampilanUntukTeamMerah(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_merah_score);
         scoreView.setText(String.valueOf(score));
-
         /*
       Menampilkan score Biru di dalam TextView
        */
@@ -35,13 +34,11 @@ public class MainActivity extends AppCompatActivity {
         scoreMerah = scoreMerah + 3;
         TampilanUntukTeamMerah(scoreMerah);
         //Menambah Point Merah +3
-
     }
 
     public void satuPointMerah(View v) {
         scoreMerah = scoreMerah + 1;
         TampilanUntukTeamMerah(scoreMerah);
-
         //Menambah Point Merah +1
     }
 
@@ -51,14 +48,12 @@ public class MainActivity extends AppCompatActivity {
              /*
       Menampilkan score Biru di dalam TextView
        */
-
     }
 
     public void empatPointBiru(View v) {
         scoreBiru = scoreBiru + 4;
         TampilanUntukTeamBiru(scoreBiru);
         // Menambah Point Biru 4
-
     }
 
     public void tigaPointBiru(View v) {
@@ -72,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
         TampilanUntukTeamBiru(scoreBiru);
         // Menambah Point Biru 1
     }
-
 
     public void resetPoint(View v) {
         scoreMerah = 0;

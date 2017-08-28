@@ -84,7 +84,6 @@
                 android:onClick="tigaPointMerah"
                 android:text="+3 Points " />
 
-
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
@@ -96,7 +95,6 @@
                 android:textColor="@android:color/white"
                 android:onClick="satuPointMerah"
                 android:text="FREE THROW" />
-
 
         </LinearLayout>
 
